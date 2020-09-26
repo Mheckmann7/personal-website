@@ -7,17 +7,43 @@ body {
     display: flex;
     flex-direction: column; 
 }
+.brand-logo {
+    font-family: 'Montserrat', cursive; 
+}
 .outline {
     border: 3px dotted red; 
 }
 header {
-    height: 200px; 
+    height: 250px; 
+    background-image: url('../imgs/banner.jpg'); 
+    background-size: cover; 
+    background-position: center; 
 }
 main {
     flex-grow: 1;
 }
 footer {
+    padding: 0; 
     display: flex;
     justify-content: center; 
-    height: 50px;
+    flex-direction: column;
+    align-items: center; 
+    height: 150px;
+} 
+
+.page-footer {
+    padding: 0; 
+}
+
+footer h3 {
+    font-size: 20px;
+}
+
+footer section a{
+    color: white; 
+}
+
+i {
+    font-size: 30px;
+    margin: 10px 0px 10px 5px;  
 }
