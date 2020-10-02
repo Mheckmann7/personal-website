@@ -26,10 +26,38 @@
         </div>
     </nav>
     <header>
-
+        <h3 class="white-text">Hi there, I'm Mira</h3>
+        <img src="./imgs/profile.jpg" alt="Mira Heckmann" class="responsive-image circle">
     </header>
-    <main>
-
+    <main class="container"> 
+        <div class="row">
+            <section class="col s6">
+                <div class="container">
+                    <h4>About Me</h4>
+                    <p class="body-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quisquam consectetur amet unde distinctio labore numquam vitae accusantium inventore deserunt recusandae, eaque excepturi explicabo iure aspernatur exercitationem voluptates officia. Exercitationem.</p>
+                </div>
+            </section>
+            <section class="col s6">
+                <div class="container">
+                    <h4>Keep In Touch</h4>
+                    <form name="contact" method="POST" data-netlify="true">
+                        <div class="input-field">
+                            <input type="text" name="name" id="name">
+                            <label for="name">Name:</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="email" name="email" id="email">
+                            <label for="email">Email:</label>
+                        </div>
+                        <div class="input-field">
+                            <textarea class="materialize-textarea" name="message" id="message"></textarea>
+                            <label for="message">Your Message:</label>
+                        </div>
+                        <button type="submit" class="btn btn-small blue">Send Message</button>
+                    </form>
+                </div>
+            </section>
+        </div>
     </main>
     <footer class="page-footer blue">
         <h3>Follow Me</h3> 

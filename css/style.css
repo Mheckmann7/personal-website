@@ -8,16 +8,27 @@ body {
     flex-direction: column; 
 }
 .brand-logo {
-    font-family: 'Montserrat', cursive; 
+    font-family: 'Montserrat', serif; 
 }
 .outline {
     border: 3px dotted red; 
 }
 header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 250px; 
     background-image: url('../imgs/banner.jpg'); 
     background-size: cover; 
     background-position: center; 
+}
+header img {
+    height: 100px;
+    margin-left: 20px; 
+    border: 3px solid #2196F3; 
+}
+header h3 {
+    font-family: 'Montserrat', serif;  
 }
 main {
     flex-grow: 1;
